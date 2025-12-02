@@ -320,11 +320,11 @@
     }
 
     #intro-brief {
-        color: #FF10F0;
-        background-color: black;
+        color: black;
+        background-color: #E0FFFF;
         padding: 1em;
         border-radius: 30px;
-        border: 5px dashed #E0FFFF;
+        border: 5px dashed black;
         display: block;
         width: 40%;
         margin: 0 auto;
