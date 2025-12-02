@@ -1,0 +1,357 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        font-family: "Playwrite VN", sans-serif;
+        padding: 10%;
+        font-size: 20px;
+        font-weight: 500;
+        color: #E0FFFF;
+    }
+
+    nav img {
+        width: 10em;
+        float: right;
+    }
+
+    .nav-menu-items ul {
+        list-style-type: none;
+        /*I wanted to turn off the bullet points for the navbar
+        so I looked it up on W3schools for list-style-type
+        link to page: https://www.w3schools.com/cssref/pr_list-style-type.php */
+    }
+
+    .nav-menu-items ul a{
+        color: #E0FFFF;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .nav-menu-items ul a:hover{
+        color: black;
+        text-decoration: underline wavy 3px;
+        list-style-type: none;
+    }
+
+    body {
+        font-family: "DM Sans", sans-serif;
+        padding: 2em;
+        background-color: #2D53FF;
+    }
+
+    .container-movies {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 100px;
+        margin-right: 100px;
+        column-gap: 0px;
+    }
+    /*I learned about display:grid from W3schools, and the link to it is:
+    https://www.w3schools.com/css/css_grid_container.asp */
+
+    .intro-diary-snippets {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 60%;
+    }
+
+    .intro-diary-snippets figure {
+        border: #E0FFFF dashed 5px;
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .intro-diary-snippets figcaption {
+        font-size: 20px;
+        font-weight: 800;
+        color: #E0FFFF;
+        margin-bottom: 10px;
+    }
+
+    .intro-diary-snippets img {
+        width: 300px;
+    }
+
+    .movies-review {
+        width: 40%;
+        margin-left: 50px;
+        background-color: black;
+        border-radius: 1em;
+        height: fit-content;
+        padding: 2em;
+    }
+
+    #movies-review-header {
+        color:#ffcd00;
+    }
+
+    .movies-review ul {
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "DM Sans", sans-serif;
+        color: #E0FFFF;
+        margin-top: 20px;
+        list-style-type: none;
+    }
+
+    .movies-review ul li {
+        margin-top: 10px;
+    }
+
+    #movie-title {
+        margin-top: 1em;
+    }
+
+    #reading-title {
+        margin-top: 1em;
+    }
+
+    #reading-review-header {
+        color: #ffcd00;
+    }
+    .reading-review {
+        width: 40%;
+        margin-left: 50px;
+        background-color: black;
+        border-radius: 1em;
+        height: fit-content;
+        padding: 2em;
+    }
+
+    .reading-review ul {
+        margin-top: 20px;
+        list-style-type: none;
+        color: #E0FFFF;
+    }
+
+    .container-reading-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 100px;
+        margin-right: 100px;
+        column-gap: 0px;
+    }
+
+    .reading-list figure {
+        border: #E0FFFF dashed 5px;
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 20px;
+        height: fit-content;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .reading-list figcaption {
+        font-size: 20px;
+        font-weight: 800;
+        color: #E0FFFF;
+        margin-bottom: 10px;
+    }
+
+    .reading-list {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 60%;
+    }
+
+    .reading-list img {
+        width: 350px;
+    }
+
+    h1 {
+        color: #E0FFFF;
+        margin-left: 150px;
+        font-size: 120px;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 400;
+        line-height: 1;
+        padding-bottom: 50px;
+    }
+
+    .container-printmaking {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 1em;
+        gap: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        column-gap: 0px;
+        background-color: black;
+        border-radius: 1em;
+    }
+
+    .column-1 {
+        font-size: 16px;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 400;
+        color: #E0FFFF;
+        width: 30vw;
+        margin-left: 100px;
+    }
+
+    .column-2 {
+        width: 30vw;
+        height: auto;
+        position: relative;
+    }
+
+    .printmaking-description {
+        font-size: 16px;
+        font-family: "DM Sans", sans-serif;
+        line-height: 1.5em;
+        font-weight: 400;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #E0FFFF;
+    }
+
+    .printmaking-image {
+        margin-top: 1em;
+        margin-left: 300px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        border: 5px solid #E0FF;
+        width: 300px;
+        height: auto;
+        transform: rotate(5deg);
+        position: absolute;
+        z-index: 1;
+    }
+
+    .printmaking-image2 {
+        margin-top: 10em;
+        margin-left: 30px;
+        margin-right: 50px;
+        border-radius: 20px;
+        border: 5px solid #FF10F0;
+        width: 300px;
+        height: auto;
+        transform: rotate(-10deg);
+        position: relative;
+        z-index: 2;
+    }
+
+    .printmaking-process {
+        font-size: 16px;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 400;
+        color: #FF10F0;
+        list-style-type: none;
+    }
+
+    #highlighted-section {
+        color:#E0FF;
+    }
+
+    #links {
+        color: #E0FF;
+        text-decoration-style: dashed;
+        text-underline-offset: 4px;
+    }
+
+    .printmaking-video video {
+        width: 700px;
+        height: auto;
+        margin-bottom: 100px;
+        margin-left: 50px;
+        margin-right: 100px;
+    }
+
+    .contact-info {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        font-size: 18px;
+        text-align: center;
+        font-family: "DM Sans", sans-serif;
+        color: whitesmoke;
+    }
+
+    th {
+        background-color: black;
+        color: #ffcd00;
+        font-size: 18px;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    tr {
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .contact-info td {
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    a {
+        color: #FF10F0;
+    }
+
+    #intro-header {
+        color: #E0FFFF;
+    }
+
+    #intro-brief {
+        color: #FF10F0;
+        background-color: black;
+        padding: 1em;
+        border-radius: 30px;
+        border: 5px dashed #E0FFFF;
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .intro img {
+        border-radius: 20px;
+        border: 5px solid black;
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffcd00;
+        width: 500px;
+    }
+
+    footer {
+        color: #E0FFFF;
+        font-family: "Playwrite VN", sans-serif;
+        margin-top: 100px;
+        padding: 1em;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
